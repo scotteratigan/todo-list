@@ -3,6 +3,7 @@ import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import Header from "./Header";
 import Button from "./Button";
 import ToDoItem from "./ToDoItem";
+import Footer from "./Footer";
 import todoList from "./todoData";
 import "./App.scss";
 
@@ -90,6 +91,7 @@ function App() {
           style={{ display: "block", width: "80%", margin: "10px auto" }}
         />
       )}
+      <Footer />
     </div>
   );
 }
