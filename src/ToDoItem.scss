@@ -1,0 +1,16 @@
+.todo-item-container {
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  border-radius: 3px;
+  margin: 8px;
+  padding: 16px;
+
+  input[type="checkbox"] {
+    transform: scale(1.5);
+  }
+
+  .todo-description-text {
+    padding-right: 5px;
+  }
+}

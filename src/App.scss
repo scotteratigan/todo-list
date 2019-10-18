@@ -1,0 +1,17 @@
+#root {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.todos-container {
+  // background-color: #8df2a8;
+  width: 500px;
+  padding: 10px;
+}
+
+[data-react-beautiful-dnd-droppable] {
+  padding: 8px;
+  border-radius: 3px;
+}
